@@ -2,7 +2,8 @@
 
 a=10
 b=20
-
+A=$A
+B=$b
 if [ $a -gt $b ]; 
 then
   echo "a is greater than b"
