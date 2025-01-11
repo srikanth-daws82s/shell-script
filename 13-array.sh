@@ -1,6 +1,6 @@
 #!/bin/bash/
 
-STUDENTS=$ "suresh" "mahesh" "srikanth" "santhosh" )
+STUDENTS=("suresh" "mahesh" "srikanth" "santhosh" )
 
 echo "FIRST STUDENT : ${STUDENT[0]}"
 
