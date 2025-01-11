@@ -8,4 +8,4 @@ echo "second movie : ${movies[1]}"
 echo "third movie : ${movies[2]}"
 
 # print the [@] all movies
-echo "print the all movies : ${movies[@]}
+echo "print the all movies : ${movies[@]}"
