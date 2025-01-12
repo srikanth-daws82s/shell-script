@@ -10,6 +10,5 @@ echo "THIRD STUDENT : ${STUDENTS[2]}"
 
 echo "FOURTH STUDENT : ${STUDENTS[3]}"
 
-echo "ALL TUDENTS : ${STUDENTS[@]}"
+echo "ALL STUDENTS : ${STUDENTS[@]}"
 
-echo "NUMBER OF STUDENTS : ${STUDENTS[#]}"
