@@ -23,6 +23,7 @@ then
 
 else 
      echo "mysql already ... installed"
+fi
 
 
    
