@@ -2,12 +2,12 @@
 
 STUDENTS=("suresh" "mahesh" "srikanth" "santhosh" )
 
-echo "FIRST STUDENT : ${STUDENT[0]}"
+echo "FIRST STUDENT : ${STUDENTS[0]}"
 
-echo "SECOND STUDENT : ${STUDENT[1]}"
+echo "SECOND STUDENT : ${STUDENTS[1]}"
 
-echo "THIRD STUDENT : ${STUDENT[2]}"
+echo "THIRD STUDENT : ${STUDENTS[2]}"
 
-echo "FOURTH STUDENT : ${STUDENT[3]}"
+echo "FOURTH STUDENT : ${STUDENTS[3]}"
 
-echo "ALL TUDENTS : ${STUDENT[@]}"
+echo "ALL TUDENTS : ${STUDENTS[@]}"
