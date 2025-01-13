@@ -2,18 +2,18 @@
 
 USERID=$(id -u)
 
-RED="\e[31m"
-GREEN="\e[32m"
-YELLOW="\e[33m"
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
 
 VALIDATE(){
 
     if [ $1 -ne 0 ]
      then
-          echo "$2... $RED failure"
+          echo "$2... $R failure"
           exit 1
      else
-        echo "$2... $GREEN success"
+        echo "$2... $G success"
 
     fi  
 
@@ -33,7 +33,7 @@ then
     VALIDATE $? "installing mysql"
 
 else 
-     echo  -e "mysql already ... $YELLOW installed"
+     echo  -e "mysql already ... $Y installed"
 fi
 
 
@@ -44,7 +44,7 @@ then
     VALIDATE $? "installing git"
     
 else
-    echo  -e "git already ... $YELLOW installed"
+    echo  -e "git already ... $Y installed"
 
 fi
 
