@@ -33,7 +33,7 @@ then
     VALIDATE $? "installing mysql"
 
 else 
-     echo "mysql already ... $YELLOW installed"
+     echo  -e "mysql already ... $YELLOW installed"
 fi
 
 
@@ -44,7 +44,7 @@ then
     VALIDATE $? "installing git"
     
 else
-    echo "git already ... $YELLOW installed"
+    echo  -e "git already ... $YELLOW installed"
 
 fi
 
