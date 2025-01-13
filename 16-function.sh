@@ -11,7 +11,7 @@ VALIDATE(){
      else
         echo "$2... success"
 
-    fi   
+    fi  
 
 }
 
