@@ -5,6 +5,7 @@ USERID=$(id -u)
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
+N="\e[0m"
 LOGS_FOLDER="/var/log/shellscript-log" 
 LOG_FILE=$(echo $0 | cut -d "." -f1)
 TIMESTAMP=$(date +"%d-%m-%y-%H-%S-%M")
@@ -14,10 +15,10 @@ VALIDATE(){
 
     if [ $1 -ne 0 ]
      then
-          echo "$2... $R failure"
+          echo "$2... $R failure $N"
           exit 1
      else
-        echo "$2... $G success"
+        echo "$2... $G success $N"
 
     fi  
 
@@ -39,7 +40,7 @@ then
     VALIDATE $? "installing mysql"
 
 else 
-     echo  -e "mysql already ... $Y installed"
+     echo  -e "mysql already ... $Y installed $N"
 fi
 
 
@@ -50,7 +51,7 @@ then
     VALIDATE $? "installing git"
     
 else
-    echo  -e "git already ... $Y installed"
+    echo  -e "git already ... $Y installed $N"
 
 fi
 
