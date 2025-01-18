@@ -1,0 +1,21 @@
+{
+    "name": "srikanth",
+    "email": "srikanthby6@gmail.com",
+    "addresses":
+    [
+        {
+            "type": "perm",
+            "village": "ponguru",
+            "mandal":"marripadu",
+
+            
+        },
+
+        {
+            "type": "current",
+            "village": "kphb road no 5",
+            "mandal": "kukatpalli"
+        }
+    ]
+
+}

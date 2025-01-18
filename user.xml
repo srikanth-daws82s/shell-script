@@ -1,0 +1,18 @@
+<students>
+    <student>
+        <name>srikanth</name>
+        <email>srikanthby6@gmail.com</email>
+        <addresses>
+            <peraddress>
+                <vilage>ponguru</village>
+                <mandal>marripadu</mandal>
+                <pincode>524302</pincode>
+            </peraddress>
+            <currentaddress>
+                <village>kphb road number 5</village>
+                <mandal>kukatpalli</mandal>
+                <city>hyderabad</city>
+            </currentaddress>
+    </student>
+</students>   
+    

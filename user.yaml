@@ -1,0 +1,39 @@
+- name: srikanth
+  email: srikanthby6@gmail.com
+  addresses: # list of address
+  -type: perm
+   doornmuber: 1234
+   street: "near temple"
+   city: nellore
+  
+  -type: current
+   doornumber: 12345
+   street: "near cafe"
+   city: nellore
+
+- name: srikanth
+  email: srikanthby6@gmail.com
+  addresses: # list of address
+  -type: perm
+   doornmuber: 1234
+   street: "near temple"
+   city: nellore
+  
+  -type: current
+   doornumber: 12345
+   street: "near cafe"
+   city: nellore
+
+- name: srikanth
+  email: srikanthby6@gmail.com
+  addresses: # list of address
+  -type: perm
+   doornmuber: 1234
+   street: "near temple"
+   city: nellore
+  
+  -type: current
+   doornumber: 12345
+   street: "near cafe"
+   city: nellore
+
