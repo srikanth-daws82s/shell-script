@@ -7,7 +7,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-SOURCE_DIR="/home/ec2-user/shell-script/app-logs"
+SOURCE_DIR="/home/ec2-user/app-logs"
 
 LOGS_FOLDER="/var/log/shellscript-logs" 
 LOG_FILE=$(echo $0 | cut -d "." -f1)
